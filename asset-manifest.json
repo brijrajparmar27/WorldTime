@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/WorldTime/static/css/main.9f533a1f.chunk.css",
+    "main.js": "/WorldTime/static/js/main.06d56646.chunk.js",
+    "main.js.map": "/WorldTime/static/js/main.06d56646.chunk.js.map",
+    "runtime-main.js": "/WorldTime/static/js/runtime-main.35765a48.js",
+    "runtime-main.js.map": "/WorldTime/static/js/runtime-main.35765a48.js.map",
+    "static/js/2.c6ae647f.chunk.js": "/WorldTime/static/js/2.c6ae647f.chunk.js",
+    "static/js/2.c6ae647f.chunk.js.map": "/WorldTime/static/js/2.c6ae647f.chunk.js.map",
+    "index.html": "/WorldTime/index.html",
+    "static/css/main.9f533a1f.chunk.css.map": "/WorldTime/static/css/main.9f533a1f.chunk.css.map",
+    "static/js/2.c6ae647f.chunk.js.LICENSE.txt": "/WorldTime/static/js/2.c6ae647f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35765a48.js",
+    "static/js/2.c6ae647f.chunk.js",
+    "static/css/main.9f533a1f.chunk.css",
+    "static/js/main.06d56646.chunk.js"
+  ]
+}
