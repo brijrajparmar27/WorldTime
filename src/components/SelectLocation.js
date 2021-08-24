@@ -11,13 +11,13 @@ const SelectLocation = () => {
 
     const continentSelect = async (e) => {
         const selectedcontinent = e.target.value;
-        const newData = await getData("http://worldtimeapi.org/api/timezone/" + selectedcontinent);
+        const newData = await getData("https://worldtimeapi.org/api/timezone/" + selectedcontinent);
         setAreas(newData);
     }
 
     const areaSelect = async (e) => {
         const selectedarea = e.target.value;
-        await getData("http://worldtimeapi.org/api/timezone/" + selectedarea)
+        await getData("https://worldtimeapi.org/api/timezone/" + selectedarea)
             .then((newData) => {
                 setLocationData(oldData=>[...oldData,newData]);
             })

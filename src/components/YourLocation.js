@@ -6,7 +6,7 @@ const YourLocation = ()=>{
     const [data, setData] = useState();
 
     useEffect(()=>{
-        fetch("http://worldtimeapi.org/api/ip")
+        fetch("https://worldtimeapi.org/api/ip")
         .then((raw)=>{
             return raw.json();
         })
