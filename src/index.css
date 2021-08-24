@@ -45,6 +45,7 @@ code {
 .card{
   height: 150px;
   margin: 10px;
+  cursor: pointer;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
