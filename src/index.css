@@ -1,0 +1,220 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #191927;
+  font-family: 'Montserrat', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header p{
+  font-size: 24px;
+  margin: 0px;
+  padding: 10px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.header
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+.helper{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.yourlocation
+{
+  /* background-color: pink; */
+  width: fit-content;
+}
+.card{
+  height: 150px;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(111, 0, 255);
+  overflow: hidden;
+  width: 600px;
+  /* min-width: 350px; */
+  max-width: 450px;
+}
+.content{
+  display: flex;
+  flex-flow: column;
+  width: 50%;
+  margin: 10px;
+  justify-content: center;
+}
+
+.card p{
+  padding: 0px;
+  margin: 0px;
+  color: white;
+
+}
+
+.annot{
+  color: rgb(218, 218, 218);
+  margin-left: 15px;
+}
+
+hr{
+  margin: 30px;
+  border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #444458, rgba(0, 0, 0, 0));
+  /* border-color: #444458; */
+}
+
+#areas{
+  background-color: #222230;
+}
+#continent{
+  background-color: #222230;
+}
+.otherlocations{
+  /* background-color: aqua; */
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.locationlist{
+  max-width: 950px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  /* background-color: pink; */
+  /* width: min-content; */
+}
+
+.selectlocation
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.dropdown
+{
+  margin: 5px;
+  background-color: #222230;
+  padding: 5px;
+  border-radius: 50px;
+  border: 1px solid rgb(122, 122, 122);
+}
+.dropdown select{
+  margin: 5px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  color: white;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.option{
+  background-color: #222230;
+}
+
+ .time{
+  font-size: 45px;
+}
+ 
+.date{
+  letter-spacing: 1px;
+}
+
+.place{
+  font-style: italic;
+}
+
+img{
+  
+  z-index: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.gradient{
+  z-index: 3;
+  position: absolute;
+  background-image: linear-gradient(
+      to right,
+      rgb(111, 0, 255),
+      rgba(111, 0, 255, 0.900),
+      rgba(111, 0, 255, 0.800),
+      rgba(111, 0, 255, 0.700),
+      rgba(111, 0, 255, 0.600),
+      rgba(111, 0, 255, 0.500),
+      rgba(111, 0, 255, 0.400),
+      rgba(111, 0, 255, 0.300),
+      rgba(111, 0, 255, 0.200),
+      rgba(111, 0, 255, 0.100),
+      rgba(111, 0, 255, 0.084),
+      rgba(111, 0, 255, 0)
+   );
+  height: 100%;
+  width: 100%;
+}
+.contain{
+  width: 50%;
+  display: flex;
+  position: relative;
+  
+  background-color: burlywood;
+}
+
+@media only screen and (max-width:480px) {
+  .card{
+    height: 100px;
+    width: 350px;
+  }
+  .time{
+    font-size: 35px;
+  }
+   
+  .date{
+    font-size: 10px;
+    letter-spacing: 0.5px;
+  }
+  
+  .place{
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width:360px) {
+  .card{
+    height: 80px;
+    width: 300px;
+  }
+  .time{
+    font-size: 30px;
+  }
+   
+  .date{
+    font-size: 8px;
+    letter-spacing: 0.5px;
+  }
+  
+  .place{
+    font-size: 8px;
+  }
+}
