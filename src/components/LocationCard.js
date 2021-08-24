@@ -45,7 +45,7 @@ const LocationCard = (props) => {
                             )}
                         </p>
                         <p className="time">
-                            {format(new Date(Date.parse(timestamp)), "h:m a")}
+                            {format(new Date(Date.parse(timestamp)), "hh:mm a")}
                         </p>
                         <p className="date">
                             {format(new Date(timestamp), "EEEE, do LLL.")}
